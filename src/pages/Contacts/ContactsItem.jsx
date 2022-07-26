@@ -16,6 +16,7 @@ const ContactsListItem = ({ id, name, number }) => {
           src="https://img.icons8.com/fluency/344/filled-trash.png"
           width="25"
           height="25"
+          alt="trash"
         />
       </button>
     </li>

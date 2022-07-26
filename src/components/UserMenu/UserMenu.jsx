@@ -28,6 +28,7 @@ export default function UserMenu() {
           src="https://img.icons8.com/ios-filled/344/emergency-exit.png"
           width="20"
           height="20"
+          alt="exit"
         />
       </button>
     </div>
