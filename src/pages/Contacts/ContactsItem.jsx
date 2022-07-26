@@ -11,7 +11,12 @@ const ContactsListItem = ({ id, name, number }) => {
         {name}: {number}
       </p>
       <button className={s.deleteButton} onClick={() => onDeleteContact(id)}>
-        {isLoading ? 'Deleting...' : 'Delete'}
+        {isLoading ? 'Deleting...' : 'Delete'}{' '}
+        <img
+          src="https://img.icons8.com/fluency/344/filled-trash.png"
+          width="25"
+          height="25"
+        />
       </button>
     </li>
   );

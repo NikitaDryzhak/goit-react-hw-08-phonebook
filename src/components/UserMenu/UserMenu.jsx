@@ -16,9 +16,19 @@ export default function UserMenu() {
 
   return (
     <div className={s.container}>
-      <span className={s.name}>Hello, {name}</span>
-      <button type="button" onClick={() => exit()} disabled={isLoading}>
-        {isLoading ? 'Log outing...' : 'Log out'}
+      <span className={s.name}>Hello, {name}!</span>
+      <button
+        className={s.btn}
+        type="button"
+        onClick={() => exit()}
+        disabled={isLoading}
+      >
+        {isLoading ? 'Log outing...' : 'Log out'}{' '}
+        <img
+          src="https://img.icons8.com/ios-filled/344/emergency-exit.png"
+          width="20"
+          height="20"
+        />
       </button>
     </div>
   );

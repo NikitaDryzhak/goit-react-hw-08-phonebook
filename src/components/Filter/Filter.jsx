@@ -11,6 +11,7 @@ export default function Filter() {
     <label className={s.label}>
       <p className={s.title}>Filter contacts by name or number</p>
       <input
+        className={s.input}
         type="text"
         value={value}
         onChange={e => dispatch(changeFilter(e.target.value))}

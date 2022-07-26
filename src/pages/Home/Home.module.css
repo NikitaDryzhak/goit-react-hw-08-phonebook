@@ -1,33 +1,32 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 80px;
-  margin-bottom: 16px;
-  border-bottom: 1px solid #2a363b;
+.textContainer {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 }
 
-.githubLink {
-  color: #000;
-  font-size: 20px;
-  text-decoration: underline;
+.homeText {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+  font-size: 22px;
 }
-
-.auth {
-  color: #5346c7;
-
-  text-decoration: underline;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
-
-.text {
-  /* text-align: center; */
-  font-size: 14px;
-  /* font-style: italic; */
-}
-
-.storyBook {
-  margin: 0;
-}
-/* .margin {
-  margin-left: 10px;
-} */

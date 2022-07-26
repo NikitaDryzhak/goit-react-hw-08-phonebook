@@ -5,6 +5,12 @@
   font-weight: 700;
   margin-left: 30px;
   margin-right: 30px;
+  transition: 250ms;
+}
+
+.link:hover {
+  color: rgb(90, 156, 248);
+  transition: 250ms;
 }
 
 .active {
@@ -14,4 +20,9 @@
   color: blue;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.active:hover {
+  color: rgb(90, 156, 248);
+  transition: 250ms;
 }

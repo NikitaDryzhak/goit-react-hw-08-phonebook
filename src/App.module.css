@@ -1,0 +1,10 @@
+.mainContainer {
+  width: 900px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  height: 100vh;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px 5px black;
+}

@@ -18,7 +18,7 @@ const Navigation = () => {
           to="contacts"
           className={navData => (navData.isActive ? s.active : s.link)}
         >
-          Contacts
+          Contacts{' '}
         </NavLink>
       )}
     </nav>

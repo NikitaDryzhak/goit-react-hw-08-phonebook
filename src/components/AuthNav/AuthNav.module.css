@@ -3,8 +3,14 @@
   color: #000000;
   font-size: 20px;
   font-weight: 700;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: 250ms;
+}
+
+.link:hover {
+  color: rgb(90, 156, 248);
+  transition: 250ms;
 }
 
 .active {
@@ -12,6 +18,11 @@
   font-size: 20px;
   font-weight: 700;
   color: blue;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.active:hover {
+  color: rgb(90, 156, 248);
+  transition: 250ms;
 }

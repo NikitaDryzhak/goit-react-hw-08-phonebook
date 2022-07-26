@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import s from './App.module.css';
 
 import AppBar from './components/AppBar';
 import Loader from './components/Loader';
@@ -36,7 +37,7 @@ export default function App() {
 
   return (
     (content || isSuccess || isError) && (
-      <>
+      <div className={s.mainContainer}>
         <AppBar />
         <Suspense fallback={<Loader />}>
           <Routes>
@@ -79,7 +80,7 @@ export default function App() {
             <Route path="*" element={<CustomRoute restricted />} />
           </Routes>
         </Suspense>
-      </>
+      </div>
     )
   );
 }
