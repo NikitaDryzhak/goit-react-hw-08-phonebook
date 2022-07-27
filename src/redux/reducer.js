@@ -1,4 +1,3 @@
-// import { combineReducers } from 'redux';
 import { createReducer } from '@reduxjs/toolkit';
 import { changeFilter } from './actions';
 
@@ -7,6 +6,3 @@ const filter = createReducer('', {
 });
 export default filter;
 
-// export default combineReducers({
-//   filter,
-// });
