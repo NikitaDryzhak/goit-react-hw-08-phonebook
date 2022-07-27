@@ -1,26 +1,4 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-// const axios = require('axios');
-
-// const URL = 'https://connections-api.herokuapp.com/';
-
-// export async function register(content) {
-//   const url = `https://connections-api.herokuapp.com/users/signup`;
-
-//   try {
-//     const response = await axios.post(url, content);
-//     console.log('responseawd', response);
-//     return response;
-//   } catch (error) {
-//     console.log('error', error);
-//     return error.response;
-//   }
-// }
-
-// export const useRegister = () => {
-//   const url = `${URL}trending/movie/day?api_key=${API_KEY}`;
-//   const response = axios.post(url);
-//   return response;
-// };
 
 export const contactsApi = createApi({
   reducerPath: 'contactsApi',
